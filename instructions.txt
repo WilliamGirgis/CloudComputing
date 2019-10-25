@@ -1,0 +1,50 @@
+	Problem 1 - > exercise1.CustomWordCount
+"Normal WordCount but measures the time needed and prints it"
+	
+Number of reducers: 1
+Start: 2019-10-21T13:56:26.099Z
+Finish: 2019-10-21T13:56:40.764Z
+Duration : 14665
+
+
+Number of reducers: 2
+Start: 2019-10-21T14:05:12.507Z
+Finish: 2019-10-21T14:05:20.998Z
+Duration : 8491
+
+
+Number of reducers: 3
+Start: 2019-10-21T14:07:44.632Z
+Finish: 2019-10-21T14:07:53.148Z
+Duration : 8516
+
+Number of reducers: 4
+Start: 2019-10-21T14:08:35.586Z
+Finish: 2019-10-21T14:08:44.064Z
+Duration : 8478
+
+Number of reducers: 5
+Start: 2019-10-21T14:13:28.205Z
+Finish: 2019-10-21T14:13:36.938Z
+Duration : 8733
+
+Number of reducers: 6
+Start: 2019-10-21T14:14:55.482Z
+Finish: 2019-10-21T14:15:04.128Z
+Duration : 8646
+
+
+	Problem 2 - > exercise1.WordCountYago
+"Simple WordCount that counts occurences of predicates from the YAGO set"
+
+	Problem 3 - > exercise1.WordCount2
+"Only keeps tuples whomst predicate is not in patterns.txt which is a file given as an argument to the programm "
+
+	Problem 4 - > exercise1.WordCount4
+"Only keeps tupels whose predicate is livesin "
+
+	Problem 5- > default.WordCount5
+" Uses 2 different Mappers to peeform a join "
+
+
+HOW TO RUN : hadoop jar JarFileName.jar <packagename>.ClassName.class <input_dir> <output_dir>  ( -skippatterns FileToSkip ) 
